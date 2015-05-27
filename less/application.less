@@ -2,10 +2,22 @@
 // Application stylesheet
 // -----------------------------------------------
 
-.app-toolbar + .app-navbar {
-    margin-top: @navbar-height;
+body {
+    background: url(../assets/img/bg.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.app-wrapper {
+	.container();
+	background: #fff;
+	opacity: 0.9;
+}
+
+.container {
+	max-width: 660px;
 }
 
 .app-content {
-  .container();
+  background: transparent;
+  padding: 20px;
 }

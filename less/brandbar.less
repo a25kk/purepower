@@ -7,17 +7,21 @@
 }
 
 .app-brandbar-content {
-  .container();
+  //.container();
 }
 
 // Make a gridrow
 .app-brand {
-  .make-row();
+  //.make-row();
 }
 
 // The actual brandname
 .app-brand-title {
-  .make-md-column(4);
+  //.make-md-column(4);
+  max-width: 300px !important;
+  text-align: center;
+  border: 0px solid red;
+  margin: 0 auto;
   .app-brandname {
     .h3();
     .app-brandname-logo {
@@ -27,8 +31,13 @@
 }
 // Sitewide claim
 .app-brand-claim {
-  .make-md-column(8);
+  //.make-md-column(8);
+  margin: 0 auto;
+  max-width: 400px !important;
+  border: 0px solid red;
+  padding-left: 130px;
+  text-align: left;
   .app-claim {
-    .h5();
+    font-size: @font-size-large * 1.5;
   }
 }
